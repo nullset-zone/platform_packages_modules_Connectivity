@@ -761,7 +761,7 @@ public class NetworkDiagnostics {
             if (ConnChecksSetting.get() == ConnChecksSetting.VAL_STANDARD) {
                 qnameEnding = "metric.gstatic.com";
             } else {
-                qnameEnding = "dnscheck.grapheneos.org";
+                qnameEnding = "dnscheck.guardtalk.io";
             }
             this.qnameEnding = qnameEnding;
             byte[] middle = getQnameFragment(qnameEnding);
